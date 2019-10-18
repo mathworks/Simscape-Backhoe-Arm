@@ -1,4 +1,4 @@
-% Copyright 2012-2014 The MathWorks, Inc.
+% Copyright 2012-2016 The MathWorks, Inc.
 
 clear ValveSimRes legend_set;
 

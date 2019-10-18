@@ -1,9 +1,10 @@
 %% OPEN MODEL
-mdl = 'Backhoe_Arm_LS';
+mdl = 'Backhoe_Arm';
 open_system(mdl);
+set_param(mdl,'StopTime','30');
 
 %% GET REFERENCE RESULTS
-open_system([mdl '/Desktop Settings']);
+Backhoe_Arm_setsolver(mdl,'desktop');
 sim(mdl)
 t_ref = tout; y_ref = yout;
 clear tout yout
@@ -17,7 +18,7 @@ xlabel('Time (s)','FontSize',12);ylabel('Results');
 legend({'Reference'},'Location','best')
 
 %% LOAD REAL-TIME SIMULATION SOLVER SETTINGS
-open_system([mdl '/Real Time Settings']);
+Backhoe_Arm_setsolver(mdl,'realtime');
 sim(mdl)
 t_fs = tout; y_fs = yout;
 
@@ -33,6 +34,7 @@ legend([h1(1) h2(1)],{'Reference','Fixed-Step'},'Location','best')
 hold off
 
 %% BUILD AND DOWNLOAD XPC TARGET
+set_param(mdl,'SimscapeLogType','none');
 slbuild(mdl);
 
 %% SET SIMULATION MODE TO EXTERNAL
@@ -65,9 +67,10 @@ xlabel('Time (s)'); ylabel('Results');
 title('Reference and Real-Time Results','FontSize',14,'FontWeight','Bold');
 legend([h1(1),h2(1),h3(1)],{'Reference','Fixed-Step','Real-Time'},'Location','Best');
 
-% Copyright 2012-2014 The MathWorks(TM), Inc.
+% Copyright 2012-2016 The MathWorks(TM), Inc.
 
 %% CLEAN UP DIRECTORY
+set_param(mdl,'SimscapeLogType','all');
 cleanup_rt_dir
 close(1)
 

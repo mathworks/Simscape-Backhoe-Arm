@@ -1,7 +1,7 @@
-% Copyright 2012-2014 The MathWorks(TM), Inc.
+% Copyright 2012-2016 The MathWorks(TM), Inc.
 
 demoDir = fullfile('./');
-models = dir([demoDir '/*_LS.slx']);
+models = dir([demoDir '/*.slx']);
 %models = dir([demoDir '/ssc_house*_rt.mdl']);
 modelnames = strrep({models(:).name}, '.slx', '');
 

@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Backhoe Demo Script</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2014-07-10"><meta name="DC.source" content="Backhoe_Demo_Script.m"><style type="text/css">
+      --><title>Backhoe Demo Script</title><meta name="generator" content="MATLAB 9.0"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-03-04"><meta name="DC.source" content="Backhoe_Demo_Script.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -71,7 +71,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <span style="font-size:10pt">
 <tr><b><u>Model</u></b><br>
 <tr>1.  <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
-<tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('SimHydraulics_Actuation_System');">Finished Model</a>, <a href="matlab:open_system('SimHydraulics_Actuation_System_BH');">Model With Arm</a><br>
+<tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way');">Finished Model</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way_BH');">Model With Arm</a><br>
 <tr>3.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Param_Est']);open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
 <tr>4.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Valve']);open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
 <tr>5.  Simscape Language <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Actuation_System_Test');">Actuation System</a><br>
@@ -80,11 +80,11 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <tr>6.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Optimize']);open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
 <br>
 <tr><b><u>Deploy</u></b><br>
-<tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');open_system('Backhoe_Arm_LS');">Configure for Real-Time Simulation</a><br>
+<tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');">Configure for Real-Time Simulation</a><br>
 </style>
 </style>
-</p><pre class="codeinput"><span class="comment">% Copyright 2012-2014 The MathWorks(TM), Inc.</span>
-</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+</p><pre class="codeinput"><span class="comment">% Copyright 2012-2016 The MathWorks(TM), Inc.</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Backhoe Demo Script
 %
@@ -93,7 +93,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <span style="font-size:10pt">
 % <tr><b><u>Model</u></b><br>
 % <tr>1.  <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
-% <tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('SimHydraulics_Actuation_System');">Finished Model</a>, <a href="matlab:open_system('SimHydraulics_Actuation_System_BH');">Model With Arm</a><br>
+% <tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way');">Finished Model</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way_BH');">Model With Arm</a><br>
 % <tr>3.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Param_Est']);open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
 % <tr>4.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Valve']);open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
 % <tr>5.  Simscape Language <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Actuation_System_Test');">Actuation System</a><br>
@@ -102,13 +102,13 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <tr>6.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Optimize']);open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
 % <br>
 % <tr><b><u>Deploy</u></b><br>
-% <tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');open_system('Backhoe_Arm_LS');">Configure for Real-Time Simulation</a><br>
+% <tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');">Configure for Real-Time Simulation</a><br>
 % </style>
 % </style>
 % </html>
 % 
 
-% Copyright 2012-2014 The MathWorks(TM), Inc.
+% Copyright 2012-2016 The MathWorks(TM), Inc.
 
 
 ##### SOURCE END #####

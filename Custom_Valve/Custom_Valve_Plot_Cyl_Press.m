@@ -1,4 +1,4 @@
-% Copyright 2012-2014 The MathWorks, Inc.
+% Copyright 2012-2016 The MathWorks, Inc.
 
 colordef black;
 Color_Set = ['r','c','y','g','m','b','w'];
@@ -17,7 +17,6 @@ for i=1:length(ValveSimRes)
     title_h2 = title('Cylinder Pressure vs. Time','FontSize',14);
     xlabel_h2 = xlabel('Time (s)','FontSize',12);
     ylabel_h2 = ylabel('Pressure (Pa)','FontSize',12);
-    set(hf_h);
     grid on
     set(gca,'Box','on');
 %    axis([0 5 0 100]);
