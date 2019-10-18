@@ -10,4 +10,4 @@ Here are some key points about this demonstration model.
    in this submission.
 
 
-Copyright 2013 The MathWorks(TM), Inc.
+Copyright 2013-2014 The MathWorks(TM), Inc.

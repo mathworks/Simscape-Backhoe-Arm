@@ -1,4 +1,4 @@
-% Copyright 2012 The MathWorks(TM), Inc.
+% Copyright 2012-2014 The MathWorks(TM), Inc.
 
 demoDir = fullfile('./');
 models = dir([demoDir '/*_LS.slx']);

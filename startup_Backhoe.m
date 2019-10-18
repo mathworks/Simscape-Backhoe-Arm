@@ -1,4 +1,4 @@
-% Copyright 2012 The MathWorks, Inc.
+% Copyright 2012-2014 The MathWorks, Inc.
 Backhoe_Arm_HomeDir = pwd;
 
 addpath(pwd);

@@ -65,7 +65,7 @@ xlabel('Time (s)'); ylabel('Results');
 title('Reference and Real-Time Results','FontSize',14,'FontWeight','Bold');
 legend([h1(1),h2(1),h3(1)],{'Reference','Fixed-Step','Real-Time'},'Location','Best');
 
-% Copyright 2012 The MathWorks(TM), Inc.
+% Copyright 2012-2014 The MathWorks(TM), Inc.
 
 %% CLEAN UP DIRECTORY
 cleanup_rt_dir

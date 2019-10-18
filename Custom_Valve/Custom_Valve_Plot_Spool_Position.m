@@ -1,4 +1,4 @@
-% Copyright 2012 The MathWorks, Inc.
+% Copyright 2012-2014 The MathWorks, Inc.
 
 colordef black;
 Color_Set = ['r','c','y','g','m','b','w'];
