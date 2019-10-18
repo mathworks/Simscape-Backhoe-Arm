@@ -1,5 +1,5 @@
 % CLEANUP RT TEST DIR
-% Copyright 2012-2016 The MathWorks(TM), Inc.
+% Copyright 2012-2017 The MathWorks(TM), Inc.
 
 delete('*bio.m')
 delete('*pt.m')
@@ -13,4 +13,5 @@ for i=1:size(rtw_dirs,1)
 end
 bdclose all
 delete('*.mex*')
+delete([mdl '_rttest_temp.slx'])
 !rmdir slprj /S/Q

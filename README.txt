@@ -1,18 +1,13 @@
-Here are some key points about this demonstration model.
-  
+Backhoe Arm with Hydraulic Actuation
+Copyright 2013-2017 The MathWorks, Inc.
 
-1. You must run "startup_Backhoe.m" to set the path and load key values.
+Models a backhoe arm with three hydraulic actuators connected via a
+hydraulic network.  A control system tracks reference angles for
+the boom, arm, and bucket. Hyperlinks on the top level of the model
+create key plots and open the demo script which leads to other models.
 
+Run >>startup_Backhoe to get started.
 
-  2. You will need a supported compiler.
-	http://www.mathworks.com/support/compilers/current_release/
-
-
-  3. Double click on the gray block labelled "Script" to open an HTML page within MATLAB 
-     that will guide you through the different examples included
- in this submission.
-
-
-
-
-Copyright 2013-2016 The MathWorks(TM), Inc.
+The model opened at startup was created using native Simscape Multibody
+geometry.  Another version that uses a CAD model imported from Onshape(R)
+is also included.

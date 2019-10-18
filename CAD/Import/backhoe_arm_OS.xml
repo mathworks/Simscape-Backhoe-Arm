@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+   <Created by="Steve Miller" from="Onshape" on="11/24/16||09:40:47" using="Simscape Multibody Exporter"/>
+   <ModelUnits length="inch" mass="lbm"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="backhoe_arm" uid="2f964c14ab412c2dbfb429fc" version="w-3a87e785319f8230149ff9b6">
+      <InstanceTree>
+         <Instance entityUid="JFn*:*be4fef506d6a756cece737c0" name="Bucket_Tooth4 &lt;1&gt;" uid="Mz9QUwew3SHczEvc3">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF3*:*be4fef506d6a756cece737c0" name="Bucket_BracketAL &lt;1&gt;" uid="MtPYaVyY3Ox2oHH5p">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFnB*:*be4fef506d6a756cece737c0" name="Pin_boom_stick &lt;1&gt;" uid="M5vQoPOtOxsTYD9Xs">
+            <Transform>
+               <Rotation>0.888701480 -0.000000000 -0.458486292 0.000000000 1.000000000 0.000000000 0.458486292 -0.000000000 0.888701480 </Rotation>
+               <Translation>0.118500701 -0.000000000 -0.298075160 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*be4fef506d6a756cece737c0" name="Boom &lt;1&gt;" uid="MZKAGZS4unX9pnHzM">
+            <Transform>
+               <Rotation>0.888701480 -0.000000000 -0.458486292 0.000000000 1.000000000 0.000000000 0.458486292 -0.000000000 0.888701480 </Rotation>
+               <Translation>0.118500701 -0.000000000 -0.298075160 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFHC*:*be4fef506d6a756cece737c0" name="Pin_stick_cylinderRodStick &lt;1&gt;" uid="MiLnvMqFtoJcrjmrw">
+            <Transform>
+               <Rotation>0.881220467 -0.000000000 0.472705498 0.000000000 1.000000000 0.000000000 -0.472705498 -0.000000000 0.881220467 </Rotation>
+               <Translation>-1.992369211 0.000000000 1.867030550 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFLC*:*be4fef506d6a756cece737c0" name="Pin_stick_bucket &lt;1&gt;" uid="MAs2nDppWsw2c26eJ">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFT*:*be4fef506d6a756cece737c0" name="Bucket_FaceR &lt;1&gt;" uid="MmZ2U1qcPeJ3453qX">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFHB*:*be4fef506d6a756cece737c0" name="CrankC &lt;1&gt;" uid="MLCFjkL3e9iqn0RXK">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFrB*:*be4fef506d6a756cece737c0" name="Pin_stick_crankA &lt;1&gt;" uid="MX2Mn9lrIiNQIifrf">
+            <Transform>
+               <Rotation>0.190960715 -0.000000000 0.981597680 0.000000000 1.000000000 0.000000000 -0.981597680 0.000000000 0.190960715 </Rotation>
+               <Translation>-0.002220866 -0.000276160 4.776931696 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFX*:*be4fef506d6a756cece737c0" name="Bucket_FaceL &lt;1&gt;" uid="M6iIC5d4YNSExDuar">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFDC*:*be4fef506d6a756cece737c0" name="Pin_boom_cylinderStick &lt;1&gt;" uid="MwQaXQLoWP49Az8nX">
+            <Transform>
+               <Rotation>0.888701480 -0.000000000 -0.458486292 0.000000000 1.000000000 0.000000000 0.458486292 -0.000000000 0.888701480 </Rotation>
+               <Translation>0.118500701 -0.000000000 -0.298075160 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFP*:*be4fef506d6a756cece737c0" name="Bucket_Scoop &lt;1&gt;" uid="M0LIPxYLX8jsBoO+a">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFj*:*be4fef506d6a756cece737c0" name="Bucket_Tooth3 &lt;1&gt;" uid="MdLbjyLKqNDcVthIX">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFPB*:*be4fef506d6a756cece737c0" name="CylinderRodBoom &lt;1&gt;" uid="MkJNrjKzR/u/Upqs1">
+            <Transform>
+               <Rotation>0.849600422 0.000000000 -0.527426888 0.000000000 1.000000000 0.000000000 0.527426888 0.000000000 0.849600422 </Rotation>
+               <Translation>0.293083647 0.000098640 -0.330721212 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFXB*:*be4fef506d6a756cece737c0" name="CylinderRodStick &lt;1&gt;" uid="M1X9CKvYSbqOpUfrT">
+            <Transform>
+               <Rotation>0.938166765 -0.000000000 -0.346183652 0.000000000 1.000000000 -0.000000000 0.346183652 0.000000000 0.938166765 </Rotation>
+               <Translation>-0.073305825 0.003494140 0.107540892 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFv*:*be4fef506d6a756cece737c0" name="Bucket_BracketBR &lt;1&gt;" uid="M4d34VWpzGE/PQKwT">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFDB*:*be4fef506d6a756cece737c0" name="CrankB &lt;1&gt;" uid="MloAl/lV4HSrwsJKF">
+            <Transform>
+               <Rotation>0.393128110 -0.000000000 0.919483708 0.000000000 1.000000000 -0.000000000 -0.919483708 0.000000000 0.393128110 </Rotation>
+               <Translation>-0.714113244 -0.001731080 4.142018903 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFb*:*be4fef506d6a756cece737c0" name="Bucket_Tooth1 &lt;1&gt;" uid="MrxRYQOyvFv6Qmnhr">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*be4fef506d6a756cece737c0" name="Stick &lt;1&gt;" uid="MQjeBaqykn3G2VkAY">
+            <Transform>
+               <Rotation>0.881220467 -0.000000000 0.472705498 0.000000000 1.000000000 0.000000000 -0.472705498 -0.000000000 0.881220467 </Rotation>
+               <Translation>-1.992369211 0.000000000 1.867030550 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFzB*:*be4fef506d6a756cece737c0" name="Pin_crankB_crankC &lt;1&gt;" uid="MauNgpp3mXv7jYLJ0">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF/*:*be4fef506d6a756cece737c0" name="CrankAL &lt;1&gt;" uid="MgbTkoSb7PIEogLXM">
+            <Transform>
+               <Rotation>0.190960715 -0.000000000 0.981597680 0.000000000 1.000000000 0.000000000 -0.981597680 0.000000000 0.190960715 </Rotation>
+               <Translation>-0.002220866 -0.000276160 4.776931696 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KF/B*:*be4fef506d6a756cece737c0" name="Pin_boom_cylinderRodBoom &lt;1&gt;" uid="Mu//u7bUtMk4gYMqB">
+            <Transform>
+               <Rotation>0.888701480 -0.000000000 -0.458486292 0.000000000 1.000000000 0.000000000 0.458486292 -0.000000000 0.888701480 </Rotation>
+               <Translation>0.118500701 -0.000000000 -0.298075160 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFPC*:*be4fef506d6a756cece737c0" name="Pin_swingTower_cylinderBoom &lt;1&gt;" uid="MkVykkdkCmHhgDT1E">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFvB*:*be4fef506d6a756cece737c0" name="Pin_crankA_crankB &lt;1&gt;" uid="Mngqgpm2Sh2haGvV1">
+            <Transform>
+               <Rotation>0.190960715 -0.000000000 0.981597680 0.000000000 1.000000000 0.000000000 -0.981597680 0.000000000 0.190960715 </Rotation>
+               <Translation>-0.002220866 -0.000276160 4.776931696 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*be4fef506d6a756cece737c0" grounded="true" name="Swing_Tower &lt;1&gt;" uid="MD0IpMZGDvRpokGkY">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFTB*:*be4fef506d6a756cece737c0" name="CylinderStick &lt;1&gt;" uid="MZFy41H7edalmxD9H">
+            <Transform>
+               <Rotation>0.938166765 -0.000000000 -0.346183652 0.000000000 1.000000000 -0.000000000 0.346183652 0.000000000 0.938166765 </Rotation>
+               <Translation>-0.085690622 0.003494140 -0.195337795 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFz*:*be4fef506d6a756cece737c0" name="Bucket_BracketAR &lt;1&gt;" uid="MrR9ABn7gUbgvad9l">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFf*:*be4fef506d6a756cece737c0" name="Bucket_Tooth2 &lt;1&gt;" uid="M8EmuSqipxj39cgMf">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFbB*:*be4fef506d6a756cece737c0" name="CylinderBucket &lt;1&gt;" uid="M3dIhTVebmX9XxDTo">
+            <Transform>
+               <Rotation>0.828716944 -0.000000000 0.559667961 0.000000000 1.000000000 -0.000000000 -0.559667961 0.000000000 0.828716944 </Rotation>
+               <Translation>-2.082006122 0.000000000 2.209938496 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFLB*:*be4fef506d6a756cece737c0" name="CylinderBoom &lt;1&gt;" uid="M3axSHSuu1c+qpcDC">
+            <Transform>
+               <Rotation>0.849600422 0.000000000 -0.527426888 0.000000000 1.000000000 0.000000000 0.527426888 -0.000000000 0.849600422 </Rotation>
+               <Translation>0.341536936 0.000190080 -0.096834558 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFfB*:*be4fef506d6a756cece737c0" name="CylinderRodBucket &lt;1&gt;" uid="MTYfWB2Sr4PJvvsmq">
+            <Transform>
+               <Rotation>0.828716944 -0.000000000 0.559667961 0.000000000 1.000000000 -0.000000000 -0.559667961 0.000000000 0.828716944 </Rotation>
+               <Translation>-1.822857150 0.000000000 1.847670096 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KF7B*:*be4fef506d6a756cece737c0" name="Pin_stick_cylinderBucket &lt;1&gt;" uid="MRSMcYaelgoLLcuHe">
+            <Transform>
+               <Rotation>0.881220467 -0.000000000 0.472705498 0.000000000 1.000000000 0.000000000 -0.472705498 -0.000000000 0.881220467 </Rotation>
+               <Translation>-1.992369211 0.000000000 1.867030550 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KF3B*:*be4fef506d6a756cece737c0" name="Pin_crankC_bucket &lt;1&gt;" uid="MJqfJ1cl9cJB9ZsUv">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFjB*:*be4fef506d6a756cece737c0" name="Pin_swingTower_boom &lt;1&gt;" uid="MfKlT5LzQIYtwgQk4">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFr*:*be4fef506d6a756cece737c0" name="Bucket_BracketBL &lt;1&gt;" uid="MTAkSisqXWKledsit">
+            <Transform>
+               <Rotation>0.000454850 0.000000000 0.999999897 0.000000000 1.000000000 -0.000000000 -0.999999897 0.000000000 0.000454850 </Rotation>
+               <Translation>0.948075995 -0.001731080 5.107580682 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF7*:*be4fef506d6a756cece737c0" name="CrankAR &lt;1&gt;" uid="Mx1tKSLqLoqTeId/r">
+            <Transform>
+               <Rotation>0.190960715 -0.000000000 0.981597680 0.000000000 1.000000000 0.000000000 -0.981597680 0.000000000 0.190960715 </Rotation>
+               <Translation>-0.002220866 -0.000276160 4.776931696 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Revolute name="RevoluteSwingTowerBoom">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MfKlT5LzQIYtwgQk4</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.673200000 0.000000000 0.095040000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MZKAGZS4unX9pnHzM</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.673200000 0.000000000 0.095040000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteSwingTowerCylinderBoom">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M3axSHSuu1c+qpcDC</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.340560000 0.000000000 0.550440000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MkVykkdkCmHhgDT1E</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.340560000 0.000190080 0.550440000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="CylindricalBoomRodBoom">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MkJNrjKzR/u/Upqs1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>1.444993900 -0.000000000 1.712810189 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mu//u7bUtMk4gYMqB</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.444993900 0.000910800 1.712810189 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Cylindrical name="CylindricalCylinderBoomRod">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M3axSHSuu1c+qpcDC</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.724942683 0.000000000 0.688809195 0.000000000 1.000000000 -0.000000000 -0.688809195 0.000000000 0.724942683 </Rotation>
+                  <Translation>0.504221065 0.000022860 0.722686381 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MkJNrjKzR/u/Upqs1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.724942683 0.000000000 0.688809195 -0.000000000 1.000000000 0.000000000 -0.688809195 -0.000000000 0.724942683 </Rotation>
+                  <Translation>0.680443246 0.000114300 0.908152809 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="RevoluteBoomCylinderStick">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MwQaXQLoWP49Az8nX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.436914414 0.003494140 1.185314446 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MZFy41H7edalmxD9H</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.436914414 -0.000000000 1.185314446 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="CylindricalStickRodStick">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MiLnvMqFtoJcrjmrw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.976104671 0.000000000 2.480916045 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M1X9CKvYSbqOpUfrT</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.976104671 -0.000000000 2.480916045 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Cylindrical name="CylindricalCylinderStickRod">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MZFy41H7edalmxD9H</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.923239702 0.000000000 0.384224481 0.000000000 1.000000000 -0.000000000 -0.384224481 0.000000000 0.923239702 </Rotation>
+                  <Translation>1.497775572 -0.000000000 1.331555615 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M1X9CKvYSbqOpUfrT</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.923239702 0.000000000 0.384224481 0.000000000 1.000000000 -0.000000000 -0.384224481 0.000000000 0.923239702 </Rotation>
+                  <Translation>1.641368303 -0.000000000 1.676589617 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="RevoluteBoomStick">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M5vQoPOtOxsTYD9Xs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>2.306730774 0.000000000 2.285379465 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MQjeBaqykn3G2VkAY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>2.306730774 -0.000000000 2.285379465 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteStickCylinderBucket">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MRSMcYaelgoLLcuHe</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>2.433728759 0.000000000 2.500116006 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M3dIhTVebmX9XxDTo</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>2.433728759 0.000000000 2.500116006 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteStickCrankA">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MX2Mn9lrIiNQIifrf</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>3.881465409 0.000276160 1.354060905 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MQjeBaqykn3G2VkAY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>3.881465409 -0.000000000 1.354060905 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="CylindricalStickRodCrankA">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mngqgpm2Sh2haGvV1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>4.099244306 0.000276160 1.881077043 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTYfWB2Sr4PJvvsmq</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>4.099244306 0.000000000 1.881077043 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Cylindrical name="CylindricalCylinderBucketRod">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M3dIhTVebmX9XxDTo</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.348393697 0.000000000 0.937348298 -0.000000000 -1.000000000 0.000000000 0.937348298 -0.000000000 -0.348393697 </Rotation>
+                  <Translation>2.507966745 0.000000000 2.472523225 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTYfWB2Sr4PJvvsmq</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.348393697 -0.000000000 0.937348298 -0.000000000 -1.000000000 0.000000000 0.937348298 -0.000000000 -0.348393697 </Rotation>
+                  <Translation>2.974066406 -0.000000000 2.299283262 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Cylindrical name="CylindricalCrankACrankB">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mngqgpm2Sh2haGvV1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>4.099244306 0.000276160 1.881077043 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MloAl/lV4HSrwsJKF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>4.099244306 0.000000000 1.881077043 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="RevoluteCrankBCrankC">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MloAl/lV4HSrwsJKF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>4.546071004 0.000000000 1.526789646 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MauNgpp3mXv7jYLJ0</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>4.546071004 0.000000000 1.526789646 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteStickBucket">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MQjeBaqykn3G2VkAY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>4.079159367 -0.000000000 1.237142125 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MAs2nDppWsw2c26eJ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>4.079159367 0.001731080 1.237142125 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MtPYaVyY3Ox2oHH5p</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mz9QUwew3SHczEvc3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MAs2nDppWsw2c26eJ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MtPYaVyY3Ox2oHH5p</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MmZ2U1qcPeJ3453qX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MAs2nDppWsw2c26eJ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MLCFjkL3e9iqn0RXK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MmZ2U1qcPeJ3453qX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M6iIC5d4YNSExDuar</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MLCFjkL3e9iqn0RXK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0LIPxYLX8jsBoO+a</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M6iIC5d4YNSExDuar</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MdLbjyLKqNDcVthIX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0LIPxYLX8jsBoO+a</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_8">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M4d34VWpzGE/PQKwT</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MdLbjyLKqNDcVthIX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_9">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MrxRYQOyvFv6Qmnhr</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M4d34VWpzGE/PQKwT</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_10">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MauNgpp3mXv7jYLJ0</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MrxRYQOyvFv6Qmnhr</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_11">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MrR9ABn7gUbgvad9l</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MauNgpp3mXv7jYLJ0</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_12">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M8EmuSqipxj39cgMf</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MrR9ABn7gUbgvad9l</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_13">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MJqfJ1cl9cJB9ZsUv</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M8EmuSqipxj39cgMf</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M_IaTbX0oRfDa8UnT_14">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MTAkSisqXWKledsit</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MJqfJ1cl9cJB9ZsUv</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M31KsjPRPKi8DBXNg_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MZKAGZS4unX9pnHzM</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M5vQoPOtOxsTYD9Xs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M31KsjPRPKi8DBXNg_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MwQaXQLoWP49Az8nX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MZKAGZS4unX9pnHzM</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M31KsjPRPKi8DBXNg_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mu//u7bUtMk4gYMqB</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MwQaXQLoWP49Az8nX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MGxeytTTPiwWQ5DKx_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MD0IpMZGDvRpokGkY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MkVykkdkCmHhgDT1E</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MGxeytTTPiwWQ5DKx_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MfKlT5LzQIYtwgQk4</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MD0IpMZGDvRpokGkY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MIgHR0SRO8n770IJ0_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MgbTkoSb7PIEogLXM</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MX2Mn9lrIiNQIifrf</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MIgHR0SRO8n770IJ0_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mngqgpm2Sh2haGvV1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MgbTkoSb7PIEogLXM</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MIgHR0SRO8n770IJ0_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mx1tKSLqLoqTeId/r</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mngqgpm2Sh2haGvV1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MlqdornAXffDsCM_r_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MQjeBaqykn3G2VkAY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MiLnvMqFtoJcrjmrw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MlqdornAXffDsCM_r_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MRSMcYaelgoLLcuHe</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MQjeBaqykn3G2VkAY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+      </Joints>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="Swing_Tower" uid="JFD*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>626.442919</Mass>
+            <CenterOfMass>0.340117556 0.000000000 0.170994519 </CenterOfMass>
+            <Inertia>41.945235091 39.155082114 32.022465237 -0.000000002 2.464572342 0.000000115 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Swing_Tower.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Boom" uid="JFH*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>1960.16638</Mass>
+            <CenterOfMass>1.469858924 0.000000015 1.176410626 </CenterOfMass>
+            <Inertia>773.886012205 1158.265930134 455.877639718 0.000009867 -502.550228646 0.000031368 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Boom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Stick" uid="JFL*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>534.900857</Mass>
+            <CenterOfMass>2.972730813 -0.000000011 1.899657083 </CenterOfMass>
+            <Inertia>87.860782668 273.273738265 192.685323389 0.000001328 119.712692929 -0.000003096 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Stick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_Scoop" uid="JFP*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>321.940354</Mass>
+            <CenterOfMass>4.374241964 0.000010663 0.706850105 </CenterOfMass>
+            <Inertia>37.783869400 46.779059632 25.506951555 0.001391940 -5.866788019 0.001758274 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_Scoop.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_FaceR" uid="JFT*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>149.934526</Mass>
+            <CenterOfMass>4.283882515 -0.297000000 0.715630171 </CenterOfMass>
+            <Inertia>6.719332608 12.682257049 6.002111329 -0.000000000 -1.638097388 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_FaceR.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_FaceL" uid="JFX*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>149.934526</Mass>
+            <CenterOfMass>4.283882515 0.297000000 0.715630171 </CenterOfMass>
+            <Inertia>6.719332608 12.682257049 6.002111329 -0.000000000 -1.638097388 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_FaceL.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_Tooth1" uid="JFb*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>6.96146206</Mass>
+            <CenterOfMass>3.862605329 -0.198000000 0.269921863 </CenterOfMass>
+            <Inertia>0.007271902 0.027943681 0.027949570 0.000000000 -0.005478885 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_Tooth1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_Tooth2" uid="JFf*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>6.96146206</Mass>
+            <CenterOfMass>3.862605329 -0.066825000 0.269921863 </CenterOfMass>
+            <Inertia>0.007271902 0.027943681 0.027949570 0.000000000 -0.005478885 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_Tooth2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_Tooth3" uid="JFj*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>6.96146206</Mass>
+            <CenterOfMass>3.862605329 0.064350000 0.269921863 </CenterOfMass>
+            <Inertia>0.007271902 0.027943681 0.027949570 0.000000000 -0.005478885 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_Tooth3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_Tooth4" uid="JFn*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>6.96146206</Mass>
+            <CenterOfMass>3.862605329 0.195525000 0.269921863 </CenterOfMass>
+            <Inertia>0.007271902 0.027943681 0.027949570 0.000000000 -0.005478885 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_Tooth4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_BracketBL" uid="JFr*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>52.1199517</Mass>
+            <CenterOfMass>4.200761575 0.158400000 1.220431785 </CenterOfMass>
+            <Inertia>0.215159211 1.028962152 0.868291224 -0.000000000 0.016656879 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_BracketBL.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_BracketBR" uid="JFv*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>52.1199517</Mass>
+            <CenterOfMass>4.200761575 -0.158400000 1.220431785 </CenterOfMass>
+            <Inertia>0.215159211 1.028962152 0.868291224 -0.000000000 0.016656879 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_BracketBR.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_BracketAR" uid="JFz*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>28.2462878</Mass>
+            <CenterOfMass>4.562916572 -0.095040000 1.219398965 </CenterOfMass>
+            <Inertia>0.433260154 0.530357505 0.107728078 -0.000000000 0.001892384 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_BracketAR.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Bucket_BracketAL" uid="JF3*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>28.2462878</Mass>
+            <CenterOfMass>4.562916572 0.095040000 1.219398965 </CenterOfMass>
+            <Inertia>0.433260154 0.530357505 0.107728078 -0.000000000 0.001892384 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Bucket_BracketAL.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CrankAR" uid="JF7*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>136.781603</Mass>
+            <CenterOfMass>3.898096077 -0.166320000 1.655693073 </CenterOfMass>
+            <Inertia>4.876297926 6.392292345 1.831323217 0.000000000 -1.517381672 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CrankAR.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CrankAL" uid="JF/*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>136.781603</Mass>
+            <CenterOfMass>3.898096077 0.166320000 1.655693073 </CenterOfMass>
+            <Inertia>4.876297926 6.392292345 1.831323217 0.000000000 -1.517381672 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CrankAL.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CrankB" uid="KFDB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>108.923813</Mass>
+            <CenterOfMass>4.296628092 0.000000000 1.724572098 </CenterOfMass>
+            <Inertia>2.110354028 4.310457330 2.932754156 -0.000000000 1.756132965 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CrankB.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CrankC" uid="KFHB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>57.9622423</Mass>
+            <CenterOfMass>4.383430031 0.000000031 1.344910932 </CenterOfMass>
+            <Inertia>0.539842754 2.347198545 1.992845872 -0.000000223 -0.690098380 -0.000000308 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CrankC.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.501960784" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderBoom" uid="KFLB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>201.473866</Mass>
+            <CenterOfMass>0.759004257 0.000000000 0.990834966 </CenterOfMass>
+            <Inertia>14.397028815 26.492366285 13.098605637 -0.000000154 -12.692167109 0.000000175 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderBoom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderRodBoom" uid="KFPB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>52.975821</Mass>
+            <CenterOfMass>1.117301705 -0.000000332 1.367927799 </CenterOfMass>
+            <Inertia>3.844290188 7.228447685 3.478357666 0.000004332 -3.577046334 0.000003832 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderRodBoom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Specular a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderStick" uid="KFTB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>141.812091</Mass>
+            <CenterOfMass>1.590958130 -0.000002206 1.555458528 </CenterOfMass>
+            <Inertia>13.015870948 15.123538654 2.765681869 -0.000039426 -5.159370334 -0.000010993 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderStick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderRodStick" uid="KFXB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>43.742845</Mass>
+            <CenterOfMass>1.837898713 -0.000000305 2.148825499 </CenterOfMass>
+            <Inertia>3.295119028 3.838691644 0.630535086 0.000002978 -1.341215267 0.000001078 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderRodStick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Specular a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderBucket" uid="KFbB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>93.853739</Mass>
+            <CenterOfMass>2.858694301 -0.000000009 2.342164741 </CenterOfMass>
+            <Inertia>1.834635497 12.565081506 11.068068979 0.000004373 3.981978455 0.000001696 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderBucket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylinderRodBucket" uid="KFfB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>56.4725935</Mass>
+            <CenterOfMass>3.611852369 -0.000000337 2.062230816 </CenterOfMass>
+            <Inertia>1.153413026 8.891972478 7.835500804 -0.000002206 2.881696256 0.000006571 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylinderRodBucket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Specular a="1.000000000" b="0.752941176" g="0.752941176" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_swingTower_boom" uid="KFjB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>21.4404118</Mass>
+            <CenterOfMass>0.673200000 0.000000000 0.095040000 </CenterOfMass>
+            <Inertia>0.557564770 0.016810998 0.557564770 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_swingTower_boom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_boom_stick" uid="KFnB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>15.4677257</Mass>
+            <CenterOfMass>2.306730774 0.000000000 2.285379465 </CenterOfMass>
+            <Inertia>0.212259064 0.012127934 0.212259064 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_boom_stick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_stick_crankA" uid="KFrB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>17.4831244</Mass>
+            <CenterOfMass>3.881465409 0.000316800 1.354060905 </CenterOfMass>
+            <Inertia>0.304607048 0.013708168 0.304607048 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_stick_crankA.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_crankA_crankB" uid="KFvB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>17.4831244</Mass>
+            <CenterOfMass>4.099244306 0.000316800 1.881077043 </CenterOfMass>
+            <Inertia>0.304607048 0.013708168 0.304607048 -0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_crankA_crankB.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_crankB_crankC" uid="KFzB*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>5.20695716</Mass>
+            <CenterOfMass>4.546071004 0.000000000 1.526789646 </CenterOfMass>
+            <Inertia>0.009907282 0.004082671 0.009907282 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_crankB_crankC.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_crankC_bucket" uid="KF3B*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>9.35904605</Mass>
+            <CenterOfMass>4.587216971 0.002201760 1.390296559 </CenterOfMass>
+            <Inertia>0.049345714 0.007338241 0.049345714 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_crankC_bucket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_stick_cylinderBucket" uid="KF7B*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>8.26987313</Mass>
+            <CenterOfMass>2.433728759 0.000000000 2.500116006 </CenterOfMass>
+            <Inertia>0.034755538 0.006484242 0.034755538 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_stick_cylinderBucket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_boom_cylinderRodBoom" uid="KF/B*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>15.5381727</Mass>
+            <CenterOfMass>1.444993900 0.000910800 1.712810189 </CenterOfMass>
+            <Inertia>0.215116852 0.012183170 0.215116852 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_boom_cylinderRodBoom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_boom_cylinderStick" uid="KFDC*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>13.3267474</Mass>
+            <CenterOfMass>1.436914414 0.003999600 1.185314446 </CenterOfMass>
+            <Inertia>0.137102344 0.010449236 0.137102344 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_boom_cylinderStick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_stick_cylinderRodStick" uid="KFHC*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>8.26987313</Mass>
+            <CenterOfMass>1.976104671 0.000000000 2.480916045 </CenterOfMass>
+            <Inertia>0.034755538 0.006484242 0.034755538 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_stick_cylinderRodStick.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_stick_bucket" uid="KFLC*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>15.4677257</Mass>
+            <CenterOfMass>4.079159367 0.001980000 1.237142125 </CenterOfMass>
+            <Inertia>0.212259064 0.012127934 0.212259064 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_stick_bucket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin_swingTower_cylinderBoom" uid="KFPC*:*be4fef506d6a756cece737c0">
+         <ModelUnits length="inch" mass="lbm"/>
+         <MassProperties>
+            <Mass>9.20344992</Mass>
+            <CenterOfMass>0.340560000 0.000190080 0.550440000 </CenterOfMass>
+            <Inertia>0.047044229 0.007216241 0.047044229 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin_swingTower_cylinderBoom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Diffuse a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Specular a="1.000000000" b="0.709803922" g="0.709803922" r="0.709803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>

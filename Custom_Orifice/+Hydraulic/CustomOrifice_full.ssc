@@ -2,7 +2,7 @@ component CustomOrifice_full
 % Custom Orifice
 % The block models a fixed orifice for laminar and turbulent regimes
 
-% Copyright 2005-2016 The MathWorks, Inc.
+% Copyright 2005-2017 The MathWorks, Inc.
 
   nodes
     A = foundation.hydraulic.hydraulic; % A:left
@@ -27,7 +27,7 @@ component CustomOrifice_full
     Dh = { 1, 'm' }; 
   end
 
-  function setup
+  function setup %#simple
     if area <= 0
       error('Orifice area must be greater than zero')
     end
