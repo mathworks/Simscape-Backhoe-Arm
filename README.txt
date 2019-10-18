@@ -6,7 +6,7 @@ hydraulic network.  A control system tracks reference angles for
 the boom, arm, and bucket. Hyperlinks on the top level of the model
 create key plots and open the demo script which leads to other models.
 
-Run >>startup_Backhoe to get started.
+Open the project by double-clicking on Backhoe_Arm.prj.
 
 The model opened at startup was created using native Simscape Multibody
 geometry.  Another version that uses a CAD model imported from Onshape(R)

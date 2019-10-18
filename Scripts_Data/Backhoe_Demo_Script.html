@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Backhoe Demo Script</title><meta name="generator" content="MATLAB 9.6"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-09"><meta name="DC.source" content="Backhoe_Demo_Script.m"><style type="text/css">
+      --><title>Backhoe Demo Script</title><meta name="generator" content="MATLAB 9.7"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-08-20"><meta name="DC.source" content="Backhoe_Demo_Script.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -70,21 +70,21 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <span style="font-family:Arial">
 <span style="font-size:10pt">
 <tr><b><u>Model</u></b><br>
-<tr>1.  <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
+<tr>1.  <a href="matlab:cd(fileparts(which('Backhoe_Arm.slx')));open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
 <tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way');">Finished Model</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way_BH');">Model With Arm</a><br>
-<tr>3.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Param_Est']);open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
-<tr>4.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Valve']);open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
-<tr>5.  Simscape Language <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Actuation_System_Test');">Actuation System</a><br>
-<tr>6.  CAD: <a href="matlab:cd([Backhoe_Arm_HomeDir filesep 'CAD' filesep 'Onshape']);edit('Get_Onshape_Backhoe_Model.m');">Import from Onshape</a>, <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('backhoe_arm_actuate');">Open Model Imported from CAD</a><br>
+<tr>3.  <a href="matlab:cd(fileparts(which('Hydraulic_System_Param_Est.slx')));open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
+<tr>4.  <a href="matlab:cd(fileparts(which('Backhoe_TiltCyl_Valve_Variants.slx')));open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
+<tr>5.  Simscape Language <a href="matlab:cd(fileparts(which('Orifice_Test.slx')));open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd(fileparts(which('Actuation_System_Test.slx')));open_system('Actuation_System_Test');">Actuation System</a><br>
+<tr>6.  CAD: <a href="matlab:cd(fileparts(which('Get_Onshape_Backhoe_Model.m')));edit('Get_Onshape_Backhoe_Model.m');">Import from Onshape</a>, <a href="matlab:cd(fileparts(which('backhoe_arm_actuate.slx')));open_system('backhoe_arm_actuate');">Open Model Imported from CAD</a><br>
 <br>
 <tr><b><u>Simulate</u></b><br>
-<tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Optimize']);open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
+<tr>7.  <a href="matlab:cd(fileparts(which('Backhoe_TiltCyl_PIopt.slx')));open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
 <br>
 <tr><b><u>Deploy</u></b><br>
-<tr>8.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');">Configure for Real-Time Simulation</a><br>
+<tr>8.  <a href="matlab:cd(fileparts(which('Backhoe_Arm_SLRT.m')));edit('Backhoe_Arm_SLRT');">Configure for Real-Time Simulation</a><br>
 </style>
 </style>
-</p><p>Copyright 2012-2019 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019a</a><br></p></div><!--
+</p><p>Copyright 2012-2019 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Backhoe Demo Script
 %
@@ -92,18 +92,18 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <span style="font-family:Arial">
 % <span style="font-size:10pt">
 % <tr><b><u>Model</u></b><br>
-% <tr>1.  <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
+% <tr>1.  <a href="matlab:cd(fileparts(which('Backhoe_Arm.slx')));open_system('Backhoe_Arm');">Open Complete Backhoe Model</a><br>
 % <tr>2.  Model Hydraulic System <a href="matlab:open_system('Tilt_Actuator_Lib');new_system('untitled');open_system('untitled');set_param(bdroot,'ModelBrowserVisibility','off');">From Scratch</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way');">Finished Model</a>, <a href="matlab:open_system('hydraulic_actuation_dacyl_4way_BH');">Model With Arm</a><br>
-% <tr>3.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Param_Est']);open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
-% <tr>4.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Valve']);open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
-% <tr>5.  Simscape Language <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd([Backhoe_Arm_HomeDir '/Custom_Orifice']);open_system('Actuation_System_Test');">Actuation System</a><br>
-% <tr>6.  CAD: <a href="matlab:cd([Backhoe_Arm_HomeDir filesep 'CAD' filesep 'Onshape']);edit('Get_Onshape_Backhoe_Model.m');">Import from Onshape</a>, <a href="matlab:cd(Backhoe_Arm_HomeDir);open_system('backhoe_arm_actuate');">Open Model Imported from CAD</a><br>
+% <tr>3.  <a href="matlab:cd(fileparts(which('Hydraulic_System_Param_Est.slx')));open_system('Hydraulic_System_Param_Est');">Estimate Parameters</a><br>
+% <tr>4.  <a href="matlab:cd(fileparts(which('Backhoe_TiltCyl_Valve_Variants.slx')));open_system('Backhoe_TiltCyl_Valve_Variants');">Model Custom Valve</a><br>
+% <tr>5.  Simscape Language <a href="matlab:cd(fileparts(which('Orifice_Test.slx')));open_system('Orifice_Test');">Orifice Test</a>, <a href="matlab:cd(fileparts(which('Actuation_System_Test.slx')));open_system('Actuation_System_Test');">Actuation System</a><br>
+% <tr>6.  CAD: <a href="matlab:cd(fileparts(which('Get_Onshape_Backhoe_Model.m')));edit('Get_Onshape_Backhoe_Model.m');">Import from Onshape</a>, <a href="matlab:cd(fileparts(which('backhoe_arm_actuate.slx')));open_system('backhoe_arm_actuate');">Open Model Imported from CAD</a><br>
 % <br>
 % <tr><b><u>Simulate</u></b><br>
-% <tr>7.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Optimize']);open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
+% <tr>7.  <a href="matlab:cd(fileparts(which('Backhoe_TiltCyl_PIopt.slx')));open_system('Backhoe_TiltCyl_PIopt');">Optimize Performance</a><br>
 % <br>
 % <tr><b><u>Deploy</u></b><br>
-% <tr>8.  <a href="matlab:cd([Backhoe_Arm_HomeDir '/Local_Solver']);edit('Test_RT_Model');">Configure for Real-Time Simulation</a><br>
+% <tr>8.  <a href="matlab:cd(fileparts(which('Backhoe_Arm_SLRT.m')));edit('Backhoe_Arm_SLRT');">Configure for Real-Time Simulation</a><br>
 % </style>
 % </style>
 % </html>
