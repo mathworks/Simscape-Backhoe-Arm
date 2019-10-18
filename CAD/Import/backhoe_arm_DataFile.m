@@ -7,7 +7,7 @@
 % Do not add code to this file. Do not edit the physical units shown in comments.
 
 %%%VariableName:smiData
-% Copyright 2012-2017 The MathWorks, Inc.
+% Copyright 2012-2018 The MathWorks, Inc.
 
 
 %============= RigidTransform =============%

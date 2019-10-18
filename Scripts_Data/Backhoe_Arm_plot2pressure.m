@@ -3,7 +3,7 @@
 %
 % The plot below shows the pressure differentials in each hydraulic actuator.
 %
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_Backhoe_Arm', 'var')

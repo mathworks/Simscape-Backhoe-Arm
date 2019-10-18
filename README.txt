@@ -1,5 +1,5 @@
 Backhoe Arm with Hydraulic Actuation
-Copyright 2013-2017 The MathWorks, Inc.
+Copyright 2013-2018 The MathWorks, Inc.
 
 Models a backhoe arm with three hydraulic actuators connected via a
 hydraulic network.  A control system tracks reference angles for
