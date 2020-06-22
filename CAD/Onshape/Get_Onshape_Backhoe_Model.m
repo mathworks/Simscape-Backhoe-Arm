@@ -11,7 +11,7 @@
 % 6. Run the simulation
 % 7. Plot results
 
-% Copyright 2016-2019 The MathWorks, Inc.
+% Copyright 2016-2020 The MathWorks, Inc.
 
 % Add current directory to path
 %addpath(pwd)
@@ -45,7 +45,7 @@ set_param(modelname,'SimscapeLogType','All');
 set_param([modelname '/MechanismConfiguration'],'GravityVector','[0 0 -9.80665]');
 
 % 4. Run simulation
-sim(modelname);
+out1=sim(modelname);
 
 %% 5. Add actuation
 act_h = find_system(modelname,'regexp','on','Name','CylindricalCylinder.*');
@@ -60,7 +60,7 @@ end
 
 
 %% 6. Run simulation
-sim(modelname);
+out2=sim(modelname);
 
 %% 7. Plot Results
 % Reuse figure if it exists, else create new figure
@@ -71,10 +71,10 @@ end
 figure(h1_backhoe_arm_imported)
 clf(h1_backhoe_arm_imported)
 
-simlog_t = simlog.CylindricalCylinderBoomRod.Pz.p.series.time;
-ext_boomCyl = simlog.CylindricalCylinderBoomRod.Pz.p.series.values('m');
-ext_StickCyl = simlog.CylindricalCylinderStickRod.Pz.p.series.values('m');
-ext_BucketCyl = simlog.CylindricalCylinderBucketRod.Pz.p.series.values('m');
+simlog_t = out2.simlog.CylindricalCylinderBoomRod.Pz.p.series.time;
+ext_boomCyl = out2.simlog.CylindricalCylinderBoomRod.Pz.p.series.values('m');
+ext_StickCyl = out2.simlog.CylindricalCylinderStickRod.Pz.p.series.values('m');
+ext_BucketCyl = out2.simlog.CylindricalCylinderBucketRod.Pz.p.series.values('m');
 
 plot(simlog_t,[ext_boomCyl ext_StickCyl ext_BucketCyl],'LineWidth',1);
 title('Actuator Extension')

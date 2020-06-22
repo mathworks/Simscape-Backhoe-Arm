@@ -102,7 +102,7 @@ stairs(t_slrt2,y_slrt2,'Color',temp_colororder(4,:),'LineWidth',2);
 hold off
 legend({'Reference','Fixed-Step','Real-Time','Modified'},'Location','NorthEast');
 
-% Copyright 2012-2019 The MathWorks(TM), Inc.
+% Copyright 2012-2020 The MathWorks(TM), Inc.
 
 %% CLEAN UP DIRECTORY
 cleanup_rt_dir

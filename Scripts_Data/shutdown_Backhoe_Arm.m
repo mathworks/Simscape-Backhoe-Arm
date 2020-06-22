@@ -1,5 +1,5 @@
 % Shutdown file for project Backhoe_Arm.prj
-% Copyright 2012-2019 The MathWorks, Inc.
+% Copyright 2012-2020 The MathWorks, Inc.
 
 cd(fileparts(which('Actuation_System_Test.slx')))
 if(exist('+Hydraulic','dir') && exist('Hydraulic_lib.slx','file'))

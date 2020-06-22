@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Backhoe Arm</title><meta name="generator" content="MATLAB 9.7"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-10-15"><meta name="DC.source" content="Backhoe_Arm.m"><style type="text/css">
+      --><title>Backhoe Arm</title><meta name="generator" content="MATLAB 9.8"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-03-12"><meta name="DC.source" content="Backhoe_Arm.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -23,7 +23,7 @@ a:visited { color:#004aa0; text-decoration:none; }
 
 p { padding:0px; margin:0px 0px 20px; }
 img { padding:0px; margin:0px 0px 20px; border:none; }
-p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
 
 ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
 ul li { padding:0px; margin:0px 0px 7px 0px; }
@@ -52,6 +52,7 @@ span.comment { color:#228B22 }
 span.string { color:#A020F0 }
 span.untermstring { color:#B20000 }
 span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
 
 .footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
 .footer p { margin:0px; }
@@ -66,46 +67,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Backhoe Arm</h1><!--introduction--><p>This example shows a backhoe arm with three hydraulic actuators. A PID controller attempts to follow reference angles for the boom, arm, and bucket.  This model can be used to determine the mechanical requirements for the arm, size the hydraulic cylinders and valves, lay out the architecture of the hydraulic network, and design the controller.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#2">Arm Subsystem</a></li><li><a href="#3">Lift Actuator Subsystem</a></li><li><a href="#4">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="Backhoe_Arm_01.png" alt=""> <h2 id="2">Arm Subsystem</h2><img vspace="5" hspace="5" src="Backhoe_Arm_02.png" alt=""> <h2 id="3">Lift Actuator Subsystem</h2><img vspace="5" hspace="5" src="Backhoe_Arm_03.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2><p>The plot below shows the reference and measured angle for joints within the backhoe arm.</p><pre class="codeoutput">Warning: The file containing block diagram
-'Backhoe_Arm' is shadowed by a file of the same name
-higher on the MATLAB path. This can cause unexpected
-behavior. For more information see &lt;a
-href="matlab:helpview([docroot
-'/toolbox/simulink/helptargets.map'],
-'shadowing')"&gt;"Avoiding Problems with Shadowed
-Files"&lt;/a&gt; in the Simulink documentation.
-
-The file containing the block diagram is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Backhoe_Arm.slx.
-The file higher on the MATLAB path is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Overview\Backhoe_Arm.m 
-Warning: The file containing block diagram
-'Backhoe_Arm' is shadowed by a file of the same name
-higher on the MATLAB path. This can cause unexpected
-behavior. For more information see &lt;a
-href="matlab:helpview([docroot
-'/toolbox/simulink/helptargets.map'],
-'shadowing')"&gt;"Avoiding Problems with Shadowed
-Files"&lt;/a&gt; in the Simulink documentation.
-
-The file containing the block diagram is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Backhoe_Arm.slx.
-The file higher on the MATLAB path is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Overview\Backhoe_Arm.m 
-Warning: The file containing block diagram
-'Backhoe_Arm' is shadowed by a file of the same name
-higher on the MATLAB path. This can cause unexpected
-behavior. For more information see &lt;a
-href="matlab:helpview([docroot
-'/toolbox/simulink/helptargets.map'],
-'shadowing')"&gt;"Avoiding Problems with Shadowed
-Files"&lt;/a&gt; in the Simulink documentation.
-
-The file containing the block diagram is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Backhoe_Arm.slx.
-The file higher on the MATLAB path is:
-C:\GitHUB\FEX\Simscape-Backhoe-Arm\Overview\Backhoe_Arm.m 
-</pre><img vspace="5" hspace="5" src="Backhoe_Arm_04.png" alt=""> <p>The plot below shows the pressure differentials in each hydraulic actuator.</p><img vspace="5" hspace="5" src="Backhoe_Arm_05.png" alt=""> <p class="footer">Copyright 2014-2019 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div><!--
+  </style></head><body><div class="content"><h1>Backhoe Arm</h1><!--introduction--><p>This example shows a backhoe arm with three hydraulic actuators. A PID controller attempts to follow reference angles for the boom, arm, and bucket.  This model can be used to determine the mechanical requirements for the arm, size the hydraulic cylinders and valves, lay out the architecture of the hydraulic network, and design the controller.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#2">Arm Subsystem</a></li><li><a href="#3">Lift Actuator Subsystem</a></li><li><a href="#4">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="Backhoe_Arm_01.png" alt=""> <h2 id="2">Arm Subsystem</h2><img vspace="5" hspace="5" src="Backhoe_Arm_02.png" alt=""> <h2 id="3">Lift Actuator Subsystem</h2><img vspace="5" hspace="5" src="Backhoe_Arm_03.png" alt=""> <h2 id="4">Simulation Results from Simscape Logging</h2><p>The plot below shows the reference and measured angle for joints within the backhoe arm.</p><img vspace="5" hspace="5" src="Backhoe_Arm_04.png" alt=""> <p>The plot below shows the pressure differentials in each hydraulic actuator.</p><img vspace="5" hspace="5" src="Backhoe_Arm_05.png" alt=""> <p class="footer">Copyright 2014-2020 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Backhoe Arm
 % 
@@ -115,7 +77,7 @@ C:\GitHUB\FEX\Simscape-Backhoe-Arm\Overview\Backhoe_Arm.m
 % for the arm, size the hydraulic cylinders and valves, lay out the
 % architecture of the hydraulic network, and design the controller.
 %
-% Copyright 2014-2019 The MathWorks, Inc.
+% Copyright 2014-2020 The MathWorks, Inc.
 
 
 %% Model

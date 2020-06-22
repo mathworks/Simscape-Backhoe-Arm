@@ -1,4 +1,4 @@
-% Copyright 2012-2019 The MathWorks, Inc.
+% Copyright 2012-2020 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h2_Backhoe_TiltCyl_Valve_Variants', 'var') || ...
