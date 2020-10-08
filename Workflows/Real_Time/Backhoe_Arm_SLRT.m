@@ -8,13 +8,12 @@ cyl_visc_friction = eval(get_param([mdl '/Arm/Tilt Actuator'],'friction_viscous'
 set_param([mdl '/Arm/Tilt Actuator'],'friction_viscous','cyl_visc_friction');
 set_param(mdl,'SimscapeLogType','none');
 set_param(mdl,'StopTime','30');
-set_param([mdl '/SLRT Scope'],'Commented','off');
 
 %% Get reference results
 Backhoe_Arm_setsolver(mdl,'desktop');
 sim(mdl)
-t_ref = tout; y_ref = yout;
-clear tout yout
+log_meas = logsout_Backhoe_Arm.get('Joint_Angle_Meas');
+t_ref = log_meas.Values.Time; y_ref = log_meas.Values.Data(:,1);
 
 %% Create plot
 figure(1)
@@ -28,7 +27,8 @@ legend({'Reference'},'Location','SouthWest')
 %% Get results with real-time solver settings
 Backhoe_Arm_setsolver(mdl,'realtime');
 sim(mdl)
-t_fs = tout; y_fs = yout;
+log_meas = logsout_Backhoe_Arm.get('Joint_Angle_Meas');
+t_fs = log_meas.Values.Time; y_fs = log_meas.Values.Data(:,1);
 
 %% Compare desktop and real-time results
 figure(1)
@@ -45,66 +45,70 @@ set_param(tune_bpth,'visc_coef_conf','runtime');
 open_system(get_param(tune_bpth,'Parent'),'force')
 set_param(tune_bpth,'Selected','on');
 
+%% Build and download to real-time target
+% Choose target
+cs = getActiveConfigSet(mdl);
+cs.switchTarget('slrealtime.tlc',[]);
 
-%% BUILD AND DOWNLOAD XPC TARGET
+set_param(mdl,'SimMechanicsOpenEditorOnUpdate','off');
 slbuild(mdl);
 
-%% Set simulation mode to External
-set_param(mdl,'SimulationMode','External');
+%% Download to real-time target
+tg = slrealtime;
+tg.connect;
 
-%% Connect to target and run
-set_param(mdl, 'SimulationCommand', 'connect')
-set_param(mdl, 'SimulationCommand', 'start')
+%% Run application
+tg.load(mdl)
+tg.start('ReloadOnStop',true,'ExportToBaseWorkspace',true)
 
 open_system(mdl);
 disp('Waiting for SLRT to finish...');
 pause(1);
-disp(get_param(mdl,'SimulationStatus'));
-while(~strcmp(get_param(mdl,'SimulationStatus'),'stopped'))
+while(strcmp(tg.status,'running'))
     pause(2);
-    disp(get_param(mdl,'SimulationStatus'));
+    disp(tg.status);
 end
 pause(2);
 
-t_slrt1 = tg.TimeLog; y_slrt1 = tg.OutputLog;
+%% Extract results from logged data in Simulink Data Inspector
+y_slrt1 = logsout_Backhoe_Arm.LiveStreamSignals.get('Joint_Angle_Meas');
 
 %% Plot reference and real-time results
 figure(1)
 hold on
-h3=stairs(t_slrt1,y_slrt1,'c:','LineWidth',2.5);
+h3=stairs(y_slrt1.Values.Time,y_slrt1.Values.Data(:,1),'c:','LineWidth',2.5);
 hold off
 legend({'Reference','Fixed-Step','Real-Time'},'Location','SouthWest');
 
 %% Modify friction to model aged cylinder
-friction_id = getparamid(tg, '','cyl_visc_friction');
-disp(['Viscous Friction (current) = ' sprintf('%2.1e',getparam(tg,friction_id))]);
-setparam(tg,friction_id,2e7);
-disp(['Viscous Friction (new)     = ' sprintf('%2.1e',getparam(tg,friction_id))]);
+disp(['Viscous Friction (current) = ' num2str(getparam(tg,'','cyl_visc_friction'))]);
+setparam(tg,'','cyl_visc_friction',2e7)
+disp(['Viscous Friction (new)     = ' num2str(getparam(tg,'','cyl_visc_friction'))]);
 
 %% Run simulation with new parameter value
-start(tg);
+tg.start('ReloadOnStop',true,'ExportToBaseWorkspace',true)
 
 disp('Waiting for Simulink Real-Time to finish...');
 pause(1);
-disp(tg.Status);
-while(~strcmp(tg.Status,'stopped'))
+while(strcmp(tg.status,'running'))
     pause(2);
-    disp(tg.Status);
+    disp(tg.status);
 end
 pause(2);
 
-t_slrt2 = tg.TimeLog; y_slrt2 = tg.OutputLog;
+%% Extract results from logged data in Simulink Data Inspector
+y_slrt2 = logsout_Backhoe_Arm.LiveStreamSignals.get('Joint_Angle_Meas');
 
 %% Plot results of aged cylinder test
 figure(1)
 hold on
-stairs(t_slrt2,y_slrt2,'Color',temp_colororder(4,:),'LineWidth',2);
+stairs(y_slrt2.Values.Time,y_slrt2.Values.Data(:,1),'Color',temp_colororder(4,:),'LineWidth',2);
 hold off
 legend({'Reference','Fixed-Step','Real-Time','Modified'},'Location','NorthEast');
 
 % Copyright 2012-2020 The MathWorks(TM), Inc.
 
 %% CLEAN UP DIRECTORY
-cleanup_rt_dir
+%cleanup_rt_dir
 %close(1)
 
