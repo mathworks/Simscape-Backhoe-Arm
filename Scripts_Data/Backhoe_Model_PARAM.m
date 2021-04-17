@@ -1,5 +1,5 @@
 % BACKHOE MODEL PARAMETERS
-% Copyright 2012-2020 The MathWorks, Inc.
+% Copyright 2012-2021 The MathWorks, Inc.
 
 BH_Param.Colors.cylinderGray = [0.6 0.6 0.6];
 BH_Param.Colors.darkOrange = [0.8 0.5 0];
