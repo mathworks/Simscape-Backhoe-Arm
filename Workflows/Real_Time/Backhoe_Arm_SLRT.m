@@ -71,7 +71,7 @@ end
 pause(2);
 
 %% Extract results from logged data in Simulink Data Inspector
-y_slrt1 = logsout_Backhoe_Arm.LiveStreamSignals.get('Joint_Angle_Meas');
+y_slrt1 = logsout_Backhoe_Arm.getElement('Joint_Angle_Meas');
 
 %% Plot reference and real-time results
 figure(1)
@@ -97,7 +97,7 @@ end
 pause(2);
 
 %% Extract results from logged data in Simulink Data Inspector
-y_slrt2 = logsout_Backhoe_Arm.LiveStreamSignals.get('Joint_Angle_Meas');
+y_slrt2 = logsout_Backhoe_Arm.getElement('Joint_Angle_Meas');
 
 %% Plot results of aged cylinder test
 figure(1)
