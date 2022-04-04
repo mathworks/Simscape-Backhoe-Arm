@@ -1,4 +1,4 @@
-% Copyright 2012-2021 The MathWorks, Inc.
+% Copyright 2012-2022 The MathWorks, Inc.
 
 if ~exist('h4_Backhoe_TiltCyl_Valve_Variants', 'var') || ...
         ~isgraphics(h4_Backhoe_TiltCyl_Valve_Variants, 'figure')

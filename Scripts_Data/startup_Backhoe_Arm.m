@@ -1,5 +1,5 @@
 % Startup script for project Backhoe_Arm.prj
-% Copyright 2012-2021 The MathWorks, Inc.
+% Copyright 2012-2022 The MathWorks, Inc.
 
 cd(fileparts(which('Actuation_System_Test.slx')))
 if(exist('+Hydraulic','dir') && ~exist('Hydraulic_lib.slx','file'))

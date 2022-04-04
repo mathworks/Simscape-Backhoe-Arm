@@ -13,7 +13,7 @@
 % hydraulic forces on the spool due to flow through the orifices can be
 % enabled or disabled for each valve type that models spool dynamics.
 %
-% Copyright 2014-2021 The MathWorks, Inc.
+% Copyright 2014-2022 The MathWorks, Inc.
 
 
 
