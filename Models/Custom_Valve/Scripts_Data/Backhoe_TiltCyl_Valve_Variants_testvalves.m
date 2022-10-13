@@ -21,8 +21,7 @@ for i=1:length(valve_variants)
     force_setting_str = strrep(Custom_Valve_Force_Setting,'_',' ');
 
     if(~strcmp(valve_variants,'Abstract'))
-        orifice_path = char(find_system(test_model,'LookUnderMasks','on','FollowLinks','on','Name','Orifices'));
-        set_param(orifice_path,'OverrideUsingVariant',Custom_Valve_Force_Setting)
+        set_param([test_model '/4 Way Valve'], 'spool_hyd_frc','Enable');
     end
 
     legend_set{i} = valve_variant_str;

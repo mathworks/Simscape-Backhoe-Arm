@@ -13,7 +13,7 @@
 
 open_system('Backhoe_Arm')
 
-set_param(find_system('Backhoe_Arm','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('Backhoe_Arm','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Arm Subsystem
 

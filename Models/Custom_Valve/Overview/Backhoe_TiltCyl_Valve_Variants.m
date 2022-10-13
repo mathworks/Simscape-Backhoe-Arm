@@ -21,7 +21,7 @@
 
 open_system('Backhoe_TiltCyl_Valve_Variants')
 
-set_param(find_system('Backhoe_TiltCyl_Valve_Variants','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('Backhoe_TiltCyl_Valve_Variants','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Tilt Actuator Subsystem
 
@@ -71,16 +71,28 @@ Backhoe_TiltCyl_Valve_Variants_testvalves;
 close_system('Backhoe_TiltCyl_Valve_Variants/4 Way Valve')
 
 %% Orifice Hydraulic Forces in Spool Valve
+%
+% The following plots compare system performance if hydraulic forces on the
+% spool are neglected or included.
+
 set_param('Backhoe_TiltCyl_Valve_Variants/4 Way Valve','valvetype','Spool')
 Backhoe_TiltCyl_Valve_Variants_testforces
 close_system('Backhoe_TiltCyl_Valve_Variants/4 Way Valve')
 
 %% Orifice Hydraulic Forces in Flapper Nozzle Valve with Centering Spring
+%
+% The following plots compare system performance if hydraulic forces on the
+% spool are neglected or included.
+
 set_param('Backhoe_TiltCyl_Valve_Variants/4 Way Valve','valvetype','Flapper Nozzle Centering Spring')
 Backhoe_TiltCyl_Valve_Variants_testforces
 close_system('Backhoe_TiltCyl_Valve_Variants/4 Way Valve')
 
 %% Orifice Hydraulic Forces in Flapper Nozzle Valve with Feedback Spring
+%
+% The following plots compare system performance if hydraulic forces on the
+% spool are neglected or included.
+
 set_param('Backhoe_TiltCyl_Valve_Variants/4 Way Valve','valvetype','Flapper Nozzle Feedback Spring')
 Backhoe_TiltCyl_Valve_Variants_testforces
 close_system('Backhoe_TiltCyl_Valve_Variants/4 Way Valve')

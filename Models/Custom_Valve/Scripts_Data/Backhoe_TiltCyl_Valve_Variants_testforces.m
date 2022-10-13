@@ -8,8 +8,7 @@ valve_path = [test_model '/4 Way Valve'];
 current_valve_choice=get_param(valve_path,'ActiveVariant');
 
 if(~strcmp(current_valve_choice,'Abstract'))
-    orifice_path = char(find_system(bdroot,'LookUnderMasks','on','FollowLinks','on','Name','Orifices'));
-    
+
     Orifice_Options = {'No_Force','With_Force'};
     Hydraulic_Forces = {'Disable','Enable'};
 
