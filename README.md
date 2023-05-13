@@ -1,5 +1,5 @@
 # **Backhoe Arm with Hydraulic Actuation**
-Copyright 2013-2020 The MathWorks(TM), Inc.
+Copyright 2013-2023 The MathWorks(TM), Inc.
 
 [![View Backhoe Model in Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/39520-backhoe-model-in-simscape)
 
