@@ -1,5 +1,5 @@
 % BACKHOE MODEL PARAMETERS
-% Copyright 2012-2022 The MathWorks, Inc.
+% Copyright 2012-2023 The MathWorks, Inc.
 
 BH_Param.Colors.cylinderGray = [0.6 0.6 0.6];
 BH_Param.Colors.darkOrange = [0.8 0.5 0];
@@ -31,8 +31,8 @@ BH_Param.Lift_Actuator.Cylinder.Stroke = 1.85;
 BH_Param.Lift_Actuator.Cylinder.DeadVol_A = 1e-4;
 BH_Param.Lift_Actuator.Cylinder.DeadVol_B = 1e-4;
 BH_Param.Lift_Actuator.Cylinder.x0 = 0.067; % m
-BH_Param.Lift_Actuator.Cylinder.PA0 = 3500*BH_Param.Constants.psi2Pa; %psi
-BH_Param.Lift_Actuator.Cylinder.PB0 = 500*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Lift_Actuator.Cylinder.PA0 = 500*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Lift_Actuator.Cylinder.PB0 = 3500*BH_Param.Constants.psi2Pa; %psi
 
 BH_Param.Lift_Actuator.Valve.Max_Area = 500; % mm^2
 BH_Param.Lift_Actuator.Valve.Max_Opening = 0.005; % m
@@ -63,8 +63,8 @@ BH_Param.Reach_Actuator.Cylinder.Stroke = 2.25;
 BH_Param.Reach_Actuator.Cylinder.DeadVol_A = 1e-4;
 BH_Param.Reach_Actuator.Cylinder.DeadVol_B = 1e-4;
 BH_Param.Reach_Actuator.Cylinder.x0 = 2;  %m
-BH_Param.Reach_Actuator.Cylinder.PA0 = 2000*BH_Param.Constants.psi2Pa; %psi
-BH_Param.Reach_Actuator.Cylinder.PB0 = 1100*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Reach_Actuator.Cylinder.PA0 = 1100*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Reach_Actuator.Cylinder.PB0 = 2000*BH_Param.Constants.psi2Pa; %psi
 
 BH_Param.Reach_Actuator.Valve.Max_Area = 500; % mm^2
 BH_Param.Reach_Actuator.Valve.Max_Opening = 0.005; % m
@@ -95,8 +95,8 @@ BH_Param.Tilt_Actuator.Cylinder.Stroke = 1.9;
 BH_Param.Tilt_Actuator.Cylinder.DeadVol_A = 1e-4;
 BH_Param.Tilt_Actuator.Cylinder.DeadVol_B = 1e-4;
 BH_Param.Tilt_Actuator.Cylinder.x0 = 1.85;  %m
-BH_Param.Tilt_Actuator.Cylinder.PA0 = 1875*BH_Param.Constants.psi2Pa; %psi
-BH_Param.Tilt_Actuator.Cylinder.PB0 = 2130*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Tilt_Actuator.Cylinder.PA0 = 2130*BH_Param.Constants.psi2Pa;  %psi
+BH_Param.Tilt_Actuator.Cylinder.PB0 = 1875*BH_Param.Constants.psi2Pa; %psi
 
 BH_Param.Tilt_Actuator.Valve.Max_Area = 500; % mm^2
 BH_Param.Tilt_Actuator.Valve.Max_Opening = 0.005; % m
