@@ -4,6 +4,6 @@
 Backhoe_Model_PARAM
 Backhoe_Arm
 
-open('Backhoe_Demo_Script.html')
+web('Backhoe_Demo_Script.html')
 
 
