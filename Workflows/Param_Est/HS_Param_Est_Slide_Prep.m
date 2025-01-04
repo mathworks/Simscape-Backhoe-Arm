@@ -1,4 +1,4 @@
-% Copyright 2012-2023 The MathWorks, Inc.
+% Copyright 2012-2024 The MathWorks, Inc.
 time = HS_Param_Est_Input_DATA.time;
 Input_Data = HS_Param_Est_Input_DATA.signals.values;
 Cyl_Pos_Data = logsout_Hydraulic_System_Param_Est.get('Piston_Position');
