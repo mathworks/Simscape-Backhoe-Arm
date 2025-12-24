@@ -1,4 +1,4 @@
-% Copyright 2012-2024 The MathWorks(TM), Inc.
+% Copyright 2012-2025 The MathWorks(TM), Inc.
 
 time = Bucket_Angle_DATA.time;
 Angle_Data = Bucket_Angle_DATA.signals(1).values(:,1);

@@ -6,7 +6,7 @@
 % for the arm, size the hydraulic cylinders and valves, lay out the
 % architecture of the hydraulic network, and design the controller.
 %
-% Copyright 2014-2024 The MathWorks, Inc.
+% Copyright 2014-2025 The MathWorks, Inc.
 
 
 %% Model

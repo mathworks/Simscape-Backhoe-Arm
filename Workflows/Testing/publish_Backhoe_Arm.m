@@ -1,5 +1,5 @@
 % Script for testing Backhoe_Arm and publishing results
-% Copyright 2012-2024 The MathWorks, Inc.
+% Copyright 2012-2025 The MathWorks, Inc.
 
 mdl_list = {...
     'Backhoe_Arm',...
